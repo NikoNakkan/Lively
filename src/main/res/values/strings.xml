@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Lively</string>
+    <string name="create_your_live_event">Create your live event!</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="host_name">Host Name</string>
+    <string name="address">Address</string>
+    <string name="entrance_fee">$ Entrance fee</string>
+    <string name="MAPS_KEY">AIzaSyBA7H3gyHaendvWXEeC-nFkabsnTb-_cP4</string>
+    <string name="Cityhint">City</string>
+    <string name="enter_address_city_or_place_name">Search the place of the event.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">E-mail</string>
+
+    <string-array name="genres_array">
+        <item>No filter</item>
+        <item>Rock-Acoustic</item>
+        <item>Rock-Electric</item>
+        <item>Metal</item>
+        <item>Hip-hop</item>
+        <item>Pop</item>
+        <item>Reggae</item>
+        <item>Jazz</item>
+        <item>Laika(Greek-folk)</item>
+        <item>Rebetiko(Greek refuge blues)</item>
+    </string-array>
+
+    <string-array name="distance_array">
+        <item>No filter</item>
+        <item>Near events</item>
+        <item>Medium distance events</item>
+        <item>Global Events</item>
+
+
+    </string-array>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="find_lives_menu">Find lives</string>
+    <string name="create_live_menu">Create live show</string>
+    <string name="favourite_lives_menu">Favourite lives</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="detail_view_artistname">Artist Name</string>
+    <string name="detail_view_host">Event Host</string>
+    <string name="detail_view_time">Date and Time</string>
+    <string name="detail_view_entrancefee">Entrance Fee</string>
+    <string name="detail_view_genre">Genre Played</string>
+    <string name="detail_view_phone">Contact</string>
+    <string name="detail_view_address">Address</string>
+    <string name="detail_view_widgetbutton">Make Widget</string>
+    <string name="detail_view_personicon">PersonIcon</string>
+    <string name="detail_view_placeicon">placeIcon</string>
+    <string name="detail_view_calendaricon">calendaricon</string>
+    <string name="detail_view_dollaricon">DollarIcon</string>
+    <string name="detail_view_noteicon">noteIcon</string>
+    <string name="detail_viewphoneicon">phoneIcon</string>
+    <string name="detail_viewmarkericon">markerIcon</string>
+    <string name="activitymain_date">Date</string>
+    <string name="activitymain_time">Time</string>
+    <string name="activitymain_notes_personal_message">Notes/Personal Message</string>
+    <string name="activitymain_upload_event">Upload Event</string>
+    <string name="avtivity_map_skip_step">Skip Step</string>
+    <string name="empty_widget_text">Click make widget from a live\'s detail menu to get info</string>
+    <string name="magnify_icon">magnify icon</string>
+
+
+</resources>

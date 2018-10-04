@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?colorPrimary">
+
+
+            <android.support.v7.widget.Toolbar
+                app:title="@string/app_name"
+                app:titleTextColor="#FFFFFF"
+                android:id="@+id/toolbarmainactivity"
+                android:elevation="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/artist_name_et"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/artist_name"
+            android:maxLength="50"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/host_name_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/host_name"
+                app:backgroundTint="@color/colorPrimary"
+                android:layout_weight="1"
+                android:maxLength="54" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/phone_et"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:maxLength="30"
+                app:backgroundTint="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:singleLine="true"
+                android:id="@+id/address_name_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:maxLength="54"
+                app:backgroundTint="@color/colorPrimary"
+                android:layout_weight="3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_weight="1"
+                android:id="@+id/spinner_genre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:digits="0123456789."
+                android:inputType="numberDecimal"
+                android:id="@+id/entrance_fee_et"
+                android:layout_width="0dp"
+                android:maxLength="10"
+                android:layout_height="wrap_content"
+                android:hint="@string/entrance_fee"
+                app:backgroundTint="@color/colorPrimary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:hint="@string/activitymain_date"
+                android:id="@+id/date_tv"
+                android:layout_marginStart="4dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_tv"
+                android:hint="@string/activitymain_time"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/notes_et"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activitymain_notes_personal_message"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="6" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_data_button"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/activitymain_upload_event" />
+    </LinearLayout>
+
+</ScrollView>
+
